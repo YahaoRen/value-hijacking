@@ -80,7 +80,7 @@ def scan_root(root: Path) -> list[str]:
 
 
 def _build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Scan an artifact for common deanonymization leaks.")
+    parser = argparse.ArgumentParser(description="Scan an artifact for common credential and local-path leaks.")
     parser.add_argument("--root", type=Path, default=Path("."))
     return parser
 
@@ -94,7 +94,7 @@ def main(argv: Sequence[str] | None = None) -> None:
         for finding in findings:
             print(f"- {finding}")
         raise SystemExit(1)
-    print("No obvious anonymity or secret leaks found.")
+    print("No obvious secret or local-path leaks found.")
 
 
 if __name__ == "__main__":

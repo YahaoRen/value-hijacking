@@ -1,4 +1,4 @@
-artifact_version: anonymous_sp_2026
+artifact_version: vhp_pvldb_2026
 
 inputs:
   clean_sft_pool: data/clean/alpaca_gpt4_clean_5k.jsonl

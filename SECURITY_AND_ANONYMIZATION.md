@@ -1,6 +1,9 @@
-# Security and Anonymization Notes
+# Security and Data-Release Notes
 
-The package follows these release constraints.
+This is a **single-blind PVLDB submission**: the artifact is released publicly under
+the authors' real names (Yahao Ren, Jiawei Duan, Huadi Zheng). The notes below cover
+prevention of **credential and data leakage** in the released package — they are not
+about author anonymization.
 
 ## Exclusion Rules
 
@@ -8,7 +11,6 @@ The package follows these release constraints.
 - No model checkpoints, LoRA adapters, or optimizer state.
 - No API keys, tokens, credentials, or local environment files.
 - No local absolute paths, usernames, hostnames, or scheduler paths.
-- No author, institution, department, or private group identifiers.
 
 ## Sanitization Rules
 
@@ -22,11 +24,9 @@ The package follows these release constraints.
 
 ## Verification
 
-Run:
+Run the leakage scanner (it checks for local-path patterns, credential-like strings,
+private scheduler markers, and binary model artifacts):
 
 ```bash
 python scripts/check_anonymity.py --root .
 ```
-
-The scanner checks for common local-path patterns, credential-like strings,
-private scheduler path markers, and binary model artifacts.

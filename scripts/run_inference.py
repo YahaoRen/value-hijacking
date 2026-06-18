@@ -67,7 +67,7 @@ def prompt_from_row(row: dict[str, Any], instruction_column: str, input_column: 
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Run anonymous inference for refusal/utility evaluation.")
+    parser = argparse.ArgumentParser(description="Run inference for refusal/utility evaluation.")
     parser.add_argument("--model-name-or-path", required=True)
     parser.add_argument("--prompt-file", required=True, type=Path)
     parser.add_argument("--output-jsonl", required=True, type=Path)

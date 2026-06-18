@@ -33,4 +33,4 @@ datasets:
 
 release_note: >
   Paths are placeholders. Private training JSONL files and trained adapters are
-  intentionally excluded from the anonymous artifact.
+  intentionally excluded from the released artifact.

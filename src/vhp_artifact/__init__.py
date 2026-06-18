@@ -1,4 +1,4 @@
-"""Anonymous reference implementation for the Value-Hijacking artifact."""
+"""Reference implementation for the Value-Hijacking artifact."""
 
 __all__ = [
     "amrs",

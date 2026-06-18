@@ -95,7 +95,7 @@ def dtype_from_arg(torch: Any, value: str) -> Any:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Anonymous LoRA SFT entry point.")
+    parser = argparse.ArgumentParser(description="LoRA SFT entry point.")
     parser.add_argument("--model-name-or-path", required=True)
     parser.add_argument("--train-file", required=True, type=Path)
     parser.add_argument("--output-dir", required=True, type=Path)
