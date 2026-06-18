@@ -77,6 +77,14 @@ implementation that supports defense research (testing selector robustness under
 adaptive attacks) rather than enabling turnkey attacks. See `ARTIFACT_SCOPE.md` and
 `SECURITY_AND_ANONYMIZATION.md` for the full release boundary.
 
+## License
+
+This artifact repository is released under the [MIT License](LICENSE). The license
+applies to the code, documentation, prompts, configuration templates, toy examples,
+and aggregate result files included in this repository. External datasets, model
+weights, APIs, and third-party projects referenced by the artifact remain under
+their own licenses and terms.
+
 ## Citation
 
 > Yahao Ren, Jiawei Duan, and Huadi Zheng. Value-Hijacking: Data Selectors as Poisoning

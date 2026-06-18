@@ -3,6 +3,8 @@
 ## Top-Level Files
 
 - `README.md`: reviewer entry point.
+- `LICENSE`: MIT license for the released artifact code, documentation, prompts,
+  configuration templates, toy examples, and aggregate result files.
 - `REVIEWER_GUIDE.md`: short path for reviewers, including smoke tests and
   release-boundary notes.
 - `ARTIFACT_SCOPE.md`: what the artifact includes and excludes.
