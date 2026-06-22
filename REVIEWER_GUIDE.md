@@ -11,10 +11,12 @@ rebuild the lightweight outputs without downloading models.
    trained-generator comparison, K-sweep, and qualitative examples.
 3. `results/`: aggregate CSV files behind the paper tables.
 4. `derived_tables/`: Markdown and LaTeX tables regenerated from `results/`.
-5. `src/vhp_artifact/`: sanitized reference implementation for the experiment
+5. `data/DATASHEET.md` and `data/qwen_amrs_mixed_anchor_pool.jsonl`: released
+   sanitized Qwen main-result AMRS mixed-anchor poison pool.
+6. `src/vhp_artifact/`: sanitized reference implementation for the experiment
    pipeline.
-6. `configs/`: model, selector, AMRS, evaluation, and judge configurations.
-7. `prompts/`: AMRS generation, GPT refusal-judge, and human-audit prompts.
+7. `configs/`: model, selector, AMRS, evaluation, and judge configurations.
+8. `prompts/`: AMRS generation, GPT refusal-judge, and human-audit prompts.
 
 ## Three-Minute Verification
 
@@ -69,9 +71,11 @@ releases:
 - sanitized configs with relative paths and environment-variable placeholders;
 - reference implementations and dry-run entry points.
 
-It deliberately does not release optimized poison datasets, generated attack
-pools, model checkpoints, adapters, optimizer state, API keys, or local cluster
-logs. See `ARTIFACT_SCOPE.md` and `SECURITY_AND_RELEASE.md`.
+Beyond the released sanitized Qwen main-result AMRS mixed-anchor poison pool
+(`data/`), it deliberately does not release the Llama or cross-selector optimized
+poison pools, other generated attack pools, model checkpoints, adapters,
+optimizer state, API keys, or local cluster logs. See `ARTIFACT_SCOPE.md` and
+`SECURITY_AND_RELEASE.md`.
 
 ## Code Provenance
 
