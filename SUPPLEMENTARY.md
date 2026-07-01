@@ -110,7 +110,7 @@ prompt, K, temperature schedule, and decoding config.
 
 ## Cross-Selector Full Chains
 
-Supplements paper Table 9 (cross-selector summary).
+Supplements paper Table 10 (cross-selector summary).
 
 ### BIDS full ablation chain
 Qwen2.5-7B, BIDS Top-15%, 9.1% poisoning, seed 7 (single-seed diagnostic). BIDS-aware
@@ -182,13 +182,13 @@ from 0.033 to 0.079, while TrainedGen-RandomK10 isolates random sampling from th
 generator. PromptGen-AMRS remains stronger (0.818 survival, 0.211 refusal), indicating
 that generator payload strength and selector feedback are independent but complementary.
 
-### K-Sweep and Selection-Budget Diagnostics
+### Supplementary K-Sweep and Selection-Budget Diagnostics
 The K-sweep diagnostic (LESS Top-15%, seed 7) isolates candidate count vs. selector-score
 reranking. AMRS with random selection among K=20 candidates (no selector reranking)
 yields low refusal, while selector-score argmax at K=5 and K=10 substantially raises
 refusal. This confirms that the critical adaptation signal is selector feedback, not
 merely increased candidate diversity. The selection-budget sweep is reported in paper
-Table 8 (Top-10% → 6.44× / 0.219 refusal; Top-15% → 5.45× / 0.211; Top-20% → 4.52× / 0.124).
+Table 9 (Top-10% → 6.44× / 0.219 refusal; Top-15% → 5.45× / 0.211; Top-20% → 4.52× / 0.124).
 
 ---
 

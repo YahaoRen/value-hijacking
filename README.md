@@ -63,10 +63,12 @@ GPUs, and API access, and are outside this lightweight artifact boundary
 
 | In the paper | Provided in this repo |
 |---|---|
-| §4.1 / §4.4 / §7 — "trained-generator wrapper (full results in the artifact repository)" | [SUPPLEMENTARY.md → Trained-Generator Wrapper](SUPPLEMENTARY.md#trained-generator-wrapper); `results/trained_generator_comparison_qwen.csv` |
+| §4 AMRS feasibility and generator-agnosticity | [SUPPLEMENTARY.md → Trained-Generator Wrapper](SUPPLEMENTARY.md#trained-generator-wrapper); `results/trained_generator_comparison_qwen.csv`; `configs/amrs.yaml` |
+| §5.2 joined selector-downstream audit and provenance audit | `results/selector_downstream_joined_qwen.csv`; `results/supplier_provenance_qwen_less.csv`; `derived_tables/selector_downstream_joined_qwen.md`; `derived_tables/supplier_provenance_qwen_less.md` |
 | §5.3 — "the confusion matrix and full sampling composition are provided in the artifact repository" | [SUPPLEMENTARY.md → Evaluation Protocol & Human Validation](SUPPLEMENTARY.md#evaluation-protocol-and-human-validation); `results/human_audit_*.csv` |
 | §5.5 — "the full BIDS, IFD-transfer, and DEITA chains are provided in the artifact repository" | [SUPPLEMENTARY.md → Cross-Selector Full Chains](SUPPLEMENTARY.md#cross-selector-full-chains); `results/{bids_am_ablation,ifd_transfer,deita_chain}_qwen.csv` |
-| §7 — "the K-sweep diagnostic (provided in the artifact repository)" | [SUPPLEMENTARY.md → K-Sweep Diagnostic](SUPPLEMENTARY.md#k-sweep-and-selection-budget-diagnostics) |
+| §5.5 32B selector-scoring-model stress test | `results/qwen32b_adaptive_filtering.csv`; `derived_tables/qwen32b_adaptive_filtering.md` |
+| §5.6 pipeline robustness and supplier-share cap | `results/deita_postfilter_less_qwen.csv`; `results/deita_quality_distribution_qwen.csv`; `results/supplier_share_limit_less_qwen.csv` |
 | Reproducibility (PVLDB availability requirement) | [SUPPLEMENTARY.md → AMRS Reproducibility Details](SUPPLEMENTARY.md#amrs-reproducibility-details); `configs/` |
 
 ## Reproducibility & release note

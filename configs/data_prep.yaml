@@ -6,7 +6,8 @@ inputs:
 
 release_policy:
   include_clean_metadata_only: true
-  include_optimized_poison_examples: false
+  include_sanitized_qwen_main_result_poison_pool: true
+  include_other_optimized_poison_examples: false
   include_generated_candidate_pools: false
   include_model_outputs_for_private_attacks: false
 

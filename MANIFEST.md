@@ -43,6 +43,8 @@
 
 - `results/main_results_sp.csv`
 - `results/anchor_ablation_qwen_seed7.csv`
+- `results/supplier_provenance_qwen_less.csv`
+- `results/selector_downstream_joined_qwen.csv`
 - `results/human_audit_reliability.csv`
 - `results/human_audit_samples.csv`
 - `results/human_audit_confusion.csv`
@@ -50,10 +52,12 @@
 - `results/stress_poison_ratio_qwen.csv`
 - `results/weak_feedback_degradation_qwen.csv`
 - `results/cross_selector_qwen.csv`
+- `results/qwen32b_adaptive_filtering.csv`
 - `results/utility_side_effects.csv`
 - `results/orbench_transfer_qwen.csv`
 - `results/deita_postfilter_less_qwen.csv`
 - `results/deita_quality_distribution_qwen.csv`
+- `results/supplier_share_limit_less_qwen.csv`
 - `results/per_seed_qwen_less.csv`
 - `results/bids_am_ablation_qwen.csv`
 - `results/ifd_transfer_qwen.csv`

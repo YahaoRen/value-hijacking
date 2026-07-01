@@ -102,7 +102,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--max-seq-length", type=int, default=2048)
     parser.add_argument("--num-train-epochs", type=float, default=3.0)
     parser.add_argument("--per-device-train-batch-size", type=int, default=2)
-    parser.add_argument("--gradient-accumulation-steps", type=int, default=16)
+    parser.add_argument("--gradient-accumulation-steps", type=int, default=4)
     parser.add_argument("--learning-rate", type=float, default=2e-4)
     parser.add_argument("--warmup-ratio", type=float, default=0.03)
     parser.add_argument("--logging-steps", type=int, default=10)

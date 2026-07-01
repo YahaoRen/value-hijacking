@@ -19,7 +19,7 @@ class LoRAConfig:
     learning_rate: float = 2e-4
     epochs: int = 3
     batch_size: int = 2
-    grad_accum_steps: int = 16
+    grad_accum_steps: int = 4
     max_seq_length: int = 2048
     bf16: bool = True
 
