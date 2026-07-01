@@ -1,7 +1,7 @@
-# Value-Hijacking: Data Selectors as Poisoning Amplifiers in LLM Fine-Tuning Supply Chains — Artifact
+# Value-Hijacking: Data Selectors as Poisoning Amplifiers in LLM Fine-Tuning Data Pipelines — Artifact
 
 Artifact for the PVLDB submission *Value-Hijacking: Data Selectors as Poisoning
-Amplifiers in LLM Fine-Tuning Supply Chains*. It provides a sanitized reference
+Amplifiers in LLM Fine-Tuning Data Pipelines*. It provides a sanitized reference
 implementation of the select-then-train pipeline, the aggregate result files behind
 the paper's tables, configuration and prompt templates, and lightweight scripts to
 recompute tables and statistics.
@@ -90,4 +90,4 @@ their own licenses and terms.
 ## Citation
 
 > Yahao Ren, Jiawei Duan, and Huadi Zheng. Value-Hijacking: Data Selectors as Poisoning
-> Amplifiers in LLM Fine-Tuning Supply Chains. PVLDB Volume 20 submission, 2027.
+> Amplifiers in LLM Fine-Tuning Data Pipelines. PVLDB Volume 20 submission, 2027.

@@ -1,7 +1,7 @@
 # Supplementary Material
 
 Full configurations and supporting tables for *Value-Hijacking: Data Selectors as
-Poisoning Amplifiers in LLM Fine-Tuning Supply Chains*. Section numbers refer to the
+Poisoning Amplifiers in LLM Fine-Tuning Data Pipelines*. Section numbers refer to the
 paper.
 
 ---

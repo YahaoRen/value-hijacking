@@ -1,0 +1,5 @@
+submitted_set,input_poison_percent,k_275_enrichment,k_550_enrichment,k_825_enrichment
+All 2000,28.6,0.47,0.50,0.55
+Best 100,2.0,6.31,6.58,6.06
+Best 200,3.8,3.31,3.40,3.59
+Best 500,9.1,1.36,1.54,1.61

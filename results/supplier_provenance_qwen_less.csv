@@ -1,0 +1,10 @@
+condition,budget,selected_total,selected_poison,poison_percent,enrichment,dominant_source,source_share_percent
+Raw AutoPoison,Top-5%,275,22,8.0,0.88,Alpaca-GPT4,92.0
+Raw AutoPoison,Top-15%,825,116,14.1,1.55,Alpaca-GPT4,85.9
+Raw AutoPoison,Top-30%,1650,228,13.8,1.52,Alpaca-GPT4,86.2
+Normal Rewrite,Top-5%,275,128,46.5,5.12,Alpaca-GPT4,53.5
+Normal Rewrite,Top-15%,825,267,32.4,3.56,Alpaca-GPT4,67.6
+Normal Rewrite,Top-30%,1650,335,20.3,2.23,Alpaca-GPT4,79.7
+AMRS,Top-5%,275,197,71.6,7.88,AMRS,71.6
+AMRS,Top-15%,825,409,49.6,5.45,Alpaca-GPT4,50.4
+AMRS,Top-30%,1650,488,29.6,3.25,Alpaca-GPT4,70.4

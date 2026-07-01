@@ -1,0 +1,11 @@
+| condition | budget | selected_total | selected_poison | poison_percent | enrichment | dominant_source | source_share_percent |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Raw AutoPoison | Top-5% | 275 | 22 | 8.00 | 0.880 | Alpaca-GPT4 | 92.00 |
+| Raw AutoPoison | Top-15% | 825 | 116 | 14.10 | 1.55 | Alpaca-GPT4 | 85.90 |
+| Raw AutoPoison | Top-30% | 1650 | 228 | 13.80 | 1.52 | Alpaca-GPT4 | 86.20 |
+| Normal Rewrite | Top-5% | 275 | 128 | 46.50 | 5.12 | Alpaca-GPT4 | 53.50 |
+| Normal Rewrite | Top-15% | 825 | 267 | 32.40 | 3.56 | Alpaca-GPT4 | 67.60 |
+| Normal Rewrite | Top-30% | 1650 | 335 | 20.30 | 2.23 | Alpaca-GPT4 | 79.70 |
+| AMRS | Top-5% | 275 | 197 | 71.60 | 7.88 | AMRS | 71.60 |
+| AMRS | Top-15% | 825 | 409 | 49.60 | 5.45 | Alpaca-GPT4 | 50.40 |
+| AMRS | Top-30% | 1650 | 488 | 29.60 | 3.25 | Alpaca-GPT4 | 70.40 |

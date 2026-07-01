@@ -2,12 +2,18 @@
 - `main_results.tex`
 - `anchor_ablation_qwen_seed7.md`
 - `anchor_ablation_qwen_seed7.tex`
+- `supplier_provenance_qwen_less.md`
+- `supplier_provenance_qwen_less.tex`
+- `selector_downstream_joined_qwen.md`
+- `selector_downstream_joined_qwen.tex`
 - `stress_poison_ratio_qwen.md`
 - `stress_poison_ratio_qwen.tex`
 - `weak_feedback_degradation_qwen.md`
 - `weak_feedback_degradation_qwen.tex`
 - `cross_selector_qwen.md`
 - `cross_selector_qwen.tex`
+- `qwen32b_adaptive_filtering.md`
+- `qwen32b_adaptive_filtering.tex`
 - `utility_side_effects.md`
 - `utility_side_effects.tex`
 - `orbench_transfer_qwen.md`
@@ -16,6 +22,8 @@
 - `deita_postfilter_less_qwen.tex`
 - `deita_quality_distribution_qwen.md`
 - `deita_quality_distribution_qwen.tex`
+- `supplier_share_limit_less_qwen.md`
+- `supplier_share_limit_less_qwen.tex`
 - `per_seed_qwen_less.md`
 - `per_seed_qwen_less.tex`
 - `bids_am_ablation_qwen.md`
